@@ -1,0 +1,101 @@
+body{
+  background:#020202 ;
+	text-align: center;
+	margin:0;
+  padding:0;
+}
+
+h1{
+  color: white;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size:70px
+}
+
+h2{
+  color: white;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size:50px
+}
+
+.li{
+  color: white;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size:20px;
+  line-height:1.5;
+}
+
+p{
+  color: white;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size:20px
+  line-height:1.5
+}
+
+.rossi{
+  background-color: #000;
+}
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  color:white;
+  background-color: #020202;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rebeccapurple;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+li{
+  display: inline-block;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav::after{
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: width .3s;
+}
+
+.nav:hover::after{
+  width: 100%;
+  transition: width .3s;
+}
+
+p a:link {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+p a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+p a:hover {
+  color: mediumpurple;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+p a:active {
+  color: mediumpurple;
+  background-color: transparent;
+  text-decoration: underline;
+}
