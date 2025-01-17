@@ -1,290 +1,50 @@
+/* Nav */
 
-h1{
+.navigation {
 
-        padding: 15px;
-        font-size: 70px;
-    
-    
-      }
-    
-      h2{
-
-        padding: 15px;
-        font-size: 50px;
-    
-    
-      }
-    
-      body{
-        font-family: 'Ubuntu', sans-serif;
-        color:white;
-        background-color: #020202;
-        margin: 0 20%;
-        padding-bottom: 15px;
-        background: #020202;
-      }
-    
-      ul.homepage{
-    
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: rebeccapurple;
-        font-family: 'Ubuntu', sans-serif;
-    
-      }
-    
-    
-      li{
-    
-      display: inline-block;
-    
-     }
-    
-    li a {
-        display: inline-block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-      }
-    
-      .nav::after{
-        content: "";
-        display: block;
-        width: 0;
-        height: 2px;
-        background: white;
-        transition: width .3s;
-     }
-      .nav:hover::after{
-        width: 100%;
-        transition: width .3s;
-     }
-    
-    
-    p a:link {
-      color: pink;
-      background-color: transparent;
-      text-decoration: none;
-    }
-    
-    p a:visited {
-      color: pink;
-      background-color: transparent;
-      text-decoration: none;
-    }
-    
-    p a:hover {
-      color: mediumpurple;
-      background-color: transparent;
-      text-decoration: underline;
-    }
-    
-    p a:active {
-      color: mediumpurple;
-      background-color: transparent;
-      text-decoration: underline;
-    }
-    
-    
-    
-    h1{color: white;
-    text-align: center;
-    font-family: 'Ubuntu Mono', monospace;
-    font-size: 70px;}
-    
-    h2{color: white;
-    font-family: 'Ubuntu Mono', monospace;
-    font-size: 50px;}
-    
-    p{color: white;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 20px;
-    line-height: 1.5;}
-    
-    div{text-align: center;}
-    
-    strong{line-height: 4em;}
-    
-    .intro{line-height: 2em;}
-    
-    .introduction{text-align: center;}
-    
-    span{background-color: rgba(255, 0, 0, 0.8);}
-    
-    img.foto{border: 2px solid white;
-    border-radius: 5%;}
-    
-    div.bottone{
-    position: fixed;
-    top: 10px;
-    right: 10px;}
-    
-    h2.sottotitoli{
-      color: white;
-      font-size: 30px;}
-    
-    div.img{text-align: left;
-    display: flex;}
-    
-    img.photos{margin-left: 15px;
-    margin-top: 5px;
-    height: 70px;}
-    
-    img.photo{margin-left: 10px;
-    margin-top: 5px;
-    height: 105px;}
-    
-    blockquote{
-    background-color: #1c1c1c;
-    padding: 1em;
-    border: 2px solid white;
-    }
-    
-    .photos1{margin-left: -50px;
-    margin-top: -5px;
-    height: 90px;}
-    
-    .link {color: white;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 20px;
-    line-height: 1.5;}
-    
-    .photos2{margin-left: 15px;
-    margin-top: 15px;
-    height: 55px;}
-    
-    .altro{text-decoration: none;
-    color: white;}
-    
-    .altro:visited{color: white;
-    text-decoration: none;}
-    
-    .altro:hover{color: black;
-    background-color: white;
-    text-decoration: underline;
-    border-radius: 10px;}
-    
-    .altro:active{color: white;
-    background-color: #1c1c1c;
-    text-decoration: underline;
-    border-radius: 10px;}
-    
-    .footer {
-
-      position: fixed;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      padding: 50px;
-      text-align: left;
-
-    }
-
-
-/*Index*/
-
-
-hr{
-
-    border-width: 2px;
-    color:blueviolet;
-
-  }
-
-p{
-
-   margin: 0 20%;
-   padding: 15px;
-   font-size: 20px;
+    float: right;
 
 }
 
-h1{
-
-   margin: 3% 20%;
-   padding: 15px;
-   font-size: 70px;
+.navigation ul{
 
 }
 
-  h2{
+.navigation li {
 
-    margin: 0 20%;
-    padding: 15px;
-    font-size: 50px;
+    list-style: none;
+    display: inline;
 
-
-  }
-
-  body{
-    font-family: 'Ubuntu', sans-serif;
-    color:white;
-    background-color: #020202;
-    margin:0;
-    padding:0;
-  }
-
-  ul {
-
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rebeccapurple;
-    font-family: 'Ubuntu', sans-serif;
-    text-align: center;}
-
-
-  li{
-
-  display: inline-block;
-
- }
-
-li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-
-  .nav::after{
-    content: "";
-    display: block;
-    width: 0;
-    height: 2px;
-    background: white;
-    transition: width .3s;
- }
-  .nav:hover::after{
-    width: 100%;
-    transition: width .3s;
- }
-
-p a:link {
-  color: pink;
-  background-color: transparent;
-  text-decoration: none;
 }
 
-p a:visited {
-  color: pink;
-  background-color: transparent;
-  text-decoration: none;
+.navigation li a {
+
+    padding: 20px 30px;
+    color: hsl(0, 0%, 60%);
+    float: left;
+    transition: color .3s ease-in-out;
+
 }
 
-p a:hover {
-  color: mediumpurple;
-  background-color: transparent;
-  text-decoration: underline;
+.navigation li a:hover {
+
+    color: hsl(0, 0%, 30%);
+    transition: color .5s ease-in-out;
+
+} 
+
+/*---------------------*/
+
+body{
+
+    background-color: #F8FAFC;
+
 }
 
-p a:active {
-  color: mediumpurple;
-  background-color: transparent;
-  text-decoration: underline;
+.container{
+
+    font-family: "Libre Franklin", serif;
+    margin-left: 12%;
+    margin-right: 12%;
+
 }
