@@ -1,7 +1,0 @@
-1) correggere errori html + sintassi
-2) cercare immagini (X)
-3) sistemare css (colori + stile)
-4) css unico
-5) deploy github
-
-https://notblackshadow.github.io/Civi_ScuoleAperte/index.html
