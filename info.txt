@@ -1,0 +1,5 @@
+1) correggere errori html
+2) cercare immagini
+3) sistemare css (colori)
+4) css unico
+5) deploy github
