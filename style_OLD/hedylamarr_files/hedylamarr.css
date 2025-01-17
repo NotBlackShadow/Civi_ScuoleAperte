@@ -1,0 +1,122 @@
+
+      h1{
+
+
+        margin: 3% 20%;
+        padding: 15px;
+        font-size: 70px;
+
+
+      }
+
+      h2{
+
+        margin: 0 20%;
+        padding: 15px;
+        font-size: 50px;
+
+
+      }
+
+      body{
+        font-family: 'Ubuntu', sans-serif;
+        color:white;
+        background-color: #020202;
+       	margin: 0 20%;
+      }
+
+      ul {
+
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rebeccapurple;
+        font-family: 'Ubuntu', sans-serif;}
+
+
+      li{
+
+      display: inline-block;
+
+     }
+
+    li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      .nav::after{
+        content: "";
+        display: block;
+        width: 0;
+        height: 2px;
+        background: white;
+        transition: width .3s;
+     }
+      .nav:hover::after{
+        width: 100%;
+        transition: width .3s;
+     }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rebeccapurple;
+        font-family: 'Ubuntu', sans-serif;
+     }
+
+
+    p a:link {
+      color: pink;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    p a:visited {
+      color: pink;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    p a:hover {
+      color: mediumpurple;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+    p a:active {
+      color: mediumpurple;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+.footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      text-align: left;
+      padding: 10px;
+    }
+
+ul.link {
+
+        margin: 0;
+        padding: 0;
+        background-color: #000 !important;
+
+      }
+
+
+ul.link li{
+	  margin:0 20%;
+      padding: 15px;
+      font-size: 20px;
+      display: block;
+      }
+
