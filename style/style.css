@@ -1,50 +1,88 @@
-/* Nav */
+    /* bla bla tutto uwu chi tocca sborro*/
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-.navigation {
+    body {
+      font-family: 'Libre Franklin', sans-serif;
+      line-height: 1.8;
+      background-color: #F8FAFC;
+      color: #4E5D6C;
+    }
 
-    float: right;
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
 
-}
+    .navigation {
+      border: 2px solid rgb(78, 93, 108);
+      padding: 15px 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
 
-.navigation ul{
+    .navigation ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 18px;
+    }
 
-}
+    .navigation a {
+      text-decoration: none;
+      color: #4E5D6C;
+      font-weight: 700;
+      padding: 10px 15px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
 
-.navigation li {
+    .navigation a:hover {
+      background-color: #9AA6B2;
+      color: #F8FAFC;
+    }
 
-    list-style: none;
-    display: inline;
+    h1 {
+      font-size: 2.5rem;
+      text-align: center;
+      color: #4E5D6C;
+      margin-bottom: 20px;
+      margin-top: 60px;
+    }
 
-}
+    hr {
+      border: none;
+      border-top: 2px solid #9AA6B2;
+      margin: 20px 0;
+    }
 
-.navigation li a {
+    p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      margin-bottom: 20px;
+    }
 
-    padding: 20px 30px;
-    color: hsl(0, 0%, 60%);
-    float: left;
-    transition: color .3s ease-in-out;
+    b {
+      color: #4E5D6C;
+    }
 
-}
+    @media (max-width: 768px) {
+      .navigation ul {
+        flex-direction: column;
+        align-items: center;
+      }
 
-.navigation li a:hover {
+      .navigation a {
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
 
-    color: hsl(0, 0%, 30%);
-    transition: color .5s ease-in-out;
-
-} 
-
-/*---------------------*/
-
-body{
-
-    background-color: #F8FAFC;
-
-}
-
-.container{
-
-    font-family: "Libre Franklin", serif;
-    margin-left: 12%;
-    margin-right: 12%;
-
-}
+      h2 {
+        font-size: 1rem;
+      }
+    }
