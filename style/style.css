@@ -113,6 +113,8 @@ img{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
+  border: 10px solid rgb(78, 93, 108);
+  border-radius: 8px;
 
 }
 
